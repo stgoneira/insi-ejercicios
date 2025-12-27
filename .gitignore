@@ -1,0 +1,60 @@
+# =====================
+# Gradle
+# =====================
+.gradle/
+build/
+
+# Wrapper (se versiona solo el JAR)
+!gradle/wrapper/gradle-wrapper.jar
+!gradle/wrapper/gradle-wrapper.properties
+
+# =====================
+# Java
+# =====================
+*.class
+*.log
+hs_err_pid*
+
+# =====================
+# IDEs
+# =====================
+
+# IntelliJ IDEA
+.idea/
+*.iml
+out/
+
+# Eclipse
+.project
+.classpath
+.settings/
+bin/
+
+# VS Code
+.vscode/
+
+# NetBeans
+nbproject/
+dist/
+nbbuild/
+
+# =====================
+# OS
+# =====================
+# Linux
+*~
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# =====================
+# Otros
+# =====================
+# Archivos temporales
+*.tmp
+*.swp
