@@ -1,0 +1,22 @@
+<inscritos fecha="2025-12-31">
+	<socio monto="5000" dia="15">
+		<nombre>Juan</nombre>
+		<apellido>Sepúlveda</apellido>
+		<rut>16777888</rut>
+		<dv>k</dv>
+		<telefono>+56988776655</telefono>
+		<correo>jsepu@miempresa.cl</correo>
+		<direccion>Camino El Alba 1523</direccion>
+		<comuna>Las Condes</comuna>		
+	</socio>
+	<socio monto="20000" dia="30">
+		<nombre>María</nombre>
+		<apellido>González</apellido>
+		<rut>5333222</rut>
+		<dv>1</dv>
+		<telefono>+56981664433</telefono>
+        <correo>maritag@gmail.com</correo>
+		<direccion>Pío X</direccion>
+		<comuna>Renca</comuna>
+	</socio>
+</inscritos>

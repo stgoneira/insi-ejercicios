@@ -1,0 +1,22 @@
+<inscritos fecha="2025-12-30">
+	<socio monto="15000" dia="15">
+		<nombre>Josefa</nombre>
+		<apellido>Ulloa</apellido>
+		<rut>20777321</rut>
+		<dv>4</dv>
+		<telefono>+56988126633</telefono>
+		<correo>jou@gmail.cl</correo>
+		<direccion>Rodelillo 5642</direccion>
+		<comuna>Puente Alto</comuna>		
+	</socio>
+	<socio monto="25000" dia="20">
+		<nombre>Martina</nombre>
+		<apellido>Fernández</apellido>
+		<rut>6435978</rut>
+		<dv>5</dv>
+		<telefono>+56964874123</telefono>
+        <correo>mafer@hotmail.com</correo>
+		<direccion>Amunategui 321</direccion>
+		<comuna>Santiago</comuna>
+	</socio>
+</inscritos>

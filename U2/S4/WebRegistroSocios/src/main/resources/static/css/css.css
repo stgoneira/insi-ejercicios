@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+:root {
+    --primary-color: #9d174d;
+}
+
+body {
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr 2fr 1fr;
+    grid-template-rows: 85px 2fr 2fr;
+    min-height: 100vh;
+    font-size: 20px;
+}
+.fw-600 {
+    font-weight: 600;
+}
+.fw-500 {
+    font-weight: 500;
+}
+
+.open-sans {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    line-height: 1.2em;
+}
+p {
+    font-family: "Open Sans", sans-serif;
+    text-align: justify;
+}
+
+.fs-24 {
+    font-size: 24px;
+}
+
+.fs-40 {
+    font-size: 40px;
+}
+
+.boton {
+    background-color: var(--primary-color);
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    padding: 0.7rem 1.5em;
+    border-radius: 10px;
+}
+
+header {
+    grid-column: 1/6;
+}
+
+#logo {
+    grid-column: 2/3;
+    align-content: center;
+}
+
+#main-menu {
+    grid-column: 4/5;
+    align-self: center;
+    justify-self: end;
+}
+
+#bg-img1 {
+    grid-column: 1/6;
+    grid-row: 2/4;
+    overflow: hidden;
+}
+
+#bg-img1 div {
+    filter: blur(10px);
+    transform: scale(1.15);
+    background-image: url(/images/bg.jpg);
+    z-index: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#call-to-action {
+    padding: 2em 6em 10em 6em;
+    grid-column: 2/5;
+    grid-row: 2/4;
+    background-image:
+        linear-gradient(rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.75)),
+        url(/images/bg.jpg);
+    background-size: cover;
+    z-index: 1;
+}
+
+#call-to-action h2 {
+    margin-top: 2.5em;
+}
+
+#form-inscripcion {
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    padding-top: 2em;
+    row-gap: 12px;
+    column-gap: 20px;
+}
+
+#form-inscripcion *:last-child {
+    margin-top: 1em;
+}
+
+#form-inscripcion label {
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.2rem;
+}
+#form-inscripcion input,
+#form-inscripcion select {
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.2rem;
+    padding-left: 0.5em;
+    line-height: 1.5em;
+    border-radius: 5px;
+    border-width: 0.1px;
+}
