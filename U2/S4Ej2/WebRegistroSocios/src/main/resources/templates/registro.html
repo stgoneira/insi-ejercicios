@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <title>Fundación Los Claveles</title>
+    <link href="/css/css.css" rel="stylesheet" />
+</head>
+<body>
+<h1 id="logo" class="fs-24 open-sans fw-600">Fundación Los Claveles</h1>
+
+<nav id="main-menu">
+    <a class="boton" href="#">Ayudar</a>
+</nav>
+
+<div id="bg-img1">
+    <div></div>
+</div>
+
+<section id="call-to-action">
+    <h2 class="fs-40 open-sans fw-600">
+        Cuidando a nuestros queridos viejos
+    </h2>
+    <p>
+        Al hacerte socio de la Fundación Los Claveles, garantizas un
+        futuro digno para los adultos mayores más necesitados. Tu
+        contribución mensual se traduce directamente en cuidado
+        integral, atención profesional y afectiva, en alimentación
+        nutritiva con tres comidas diarias completas, en atención médica
+        y acompañamiento en nuestras residencias. Pero sobre todo, tu
+        apoyo les brinda dignidad y compañía, creando un entorno donde
+        se sienten verdaderamente valorados y acompañados.
+    </p>
+    <form data-th-action="@{/registro}" method="POST" id="form-inscripcion" data-th-object="${socio}">
+        <label for="nombre">Nombre Completo</label>
+        <input id="nombre" type="text" data-th-field="*{nombreCompleto}" />
+
+        <label for="rut">RUT</label>
+        <input id="rut" type="text" data-th-field="*{rut}" />
+
+        <label for="telefono">Teléfono</label>
+        <input id="telefono" type="text" data-th-field="*{telefono}" />
+
+        <label for="email">Email</label>
+        <input id="email" type="text" data-th-field="*{email}" />
+
+        <label for="direccion">Dirección</label>
+        <input id="direccion" type="text" data-th-field="*{direccion}" />
+
+        <label for="monto">Monto Mensual</label>
+        <select id="monto" data-th-field="*{montoMensual}">
+            <option data-th-value="5000">5000</option>
+            <option data-th-value="10000">10000</option>
+            <option data-th-value="20000">20000</option>
+        </select>
+
+        <label for="dia">Día pago de cuota</label>
+        <select id="dia" data-th-field="*{diaPago}">
+            <option data-th-each="dia : ${#numbers.sequence(1,31)}"
+                    data-th-value="${dia}"
+                    data-th-text="${dia}"></option>
+        </select>
+
+        <button type="submit" class="boton open-sans fs-24 fw-500">
+            Regístrate
+        </button>
+    </form>
+</section>
+</body>
+</html>
