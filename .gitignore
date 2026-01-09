@@ -24,6 +24,9 @@ hs_err_pid*
 *.iml
 out/
 
+# Visual Studio
+.vs/
+
 # Eclipse
 .project
 .classpath
