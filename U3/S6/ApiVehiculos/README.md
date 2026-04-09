@@ -6,18 +6,9 @@
 
 ## Ejecución
 
-El puerto por defecto es el 5000.
-
 ```
-dotnet ApiVehiculos.dll
-```
-
-## Usar puerto distinto
-
-Ejemplo, para correr en puerto 3000.
-
-```
-dotnet ApiVehiculos.dll 3000
+# dotnet ApiVehiculos.dll <puerto>
+dotnet ApiVehiculos.dll 5000
 ```
 
 ## Endpoint
