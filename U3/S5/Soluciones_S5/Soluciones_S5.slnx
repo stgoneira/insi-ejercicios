@@ -1,5 +1,4 @@
 <Solution>
   <Project Path="Adaptador_XML/Adaptador_XML.csproj" Id="f0c781ac-bdb1-42fa-91c3-f4f7d5b24f9f" />
-  <Project Path="Respaldo_WireTap/Respaldo_WireTap.csproj" Id="9c8790f5-77cb-4e18-b05f-b3ee9b110dc0" />
-  <Project Path="TraductorCanonico/TraductorCanonico.csproj" Id="009e013a-ffb2-4d54-ad92-395370e75406" />
+  <Project Path="Respaldo_WireTap/Respaldo_WireTap.csproj" Id="9c8790f5-77cb-4e18-b05f-b3ee9b110dc0" />  
 </Solution>

@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Respaldo_WireTap")]
+[assembly: AssemblyTitle("AppEstacionamientoEIP")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Respaldo_WireTap")]
+[assembly: AssemblyProduct("AppEstacionamientoEIP")]
 [assembly: AssemblyCopyright("Copyright ©  2026")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("9c8790f5-77cb-4e18-b05f-b3ee9b110dc0")]
+[assembly: Guid("59d16886-70c2-4f84-8bbd-fcb18f477638")]
 
 // Version information for an assembly consists of the following four values:
 //

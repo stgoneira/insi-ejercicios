@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{F0C781AC-BDB1-42FA-91C3-F4F7D5B24F9F}</ProjectGuid>
+    <ProjectGuid>{59D16886-70C2-4F84-8BBD-FCB18F477638}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Adaptador_XML</RootNamespace>
-    <AssemblyName>Adaptador_XML</AssemblyName>
+    <RootNamespace>AppEstacionamientoEIP</RootNamespace>
+    <AssemblyName>AppEstacionamientoEIP</AssemblyName>
     <TargetFrameworkVersion>v4.8.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -36,6 +36,7 @@
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Messaging" />
+    <Reference Include="System.Runtime.Serialization" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -44,8 +45,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AccesoWireTap.cs" />
+    <Compile Include="AccesoXMLAdapter.cs" />
+    <Compile Include="Enriquecedor.cs" />
+    <Compile Include="Enrutador.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TraductorCanonico.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

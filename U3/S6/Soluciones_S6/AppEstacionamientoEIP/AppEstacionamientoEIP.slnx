@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="AppEstacionamientoEIP/AppEstacionamientoEIP.csproj" Id="59d16886-70c2-4f84-8bbd-fcb18f477638" />
+  <Project Path="UnitTestProject/UnitTestProject.csproj" Id="dd5676e1-6042-488c-9694-c12ca7d7cd1c" />
+</Solution>
